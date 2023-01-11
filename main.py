@@ -2,6 +2,7 @@ import openai
 import streamlit as st
 from openai import Completion
 from streamlit_chat import message
+import os
 
 os.environ["OPENAI_API_KEY"] = "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"
 
