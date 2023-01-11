@@ -3,7 +3,7 @@ import streamlit as st
 from openai import Completion
 from streamlit_chat import message
 
-openai.api_key = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 start_chat_log = '''You: Hello, how are you?
 Noah: I am doing great.
