@@ -1,1 +1,2 @@
 openai==0.25.0
+streamlit-chat==0.0.2.1
