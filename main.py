@@ -4,7 +4,7 @@ from openai import Completion
 from streamlit_chat import message
 import os
 
-openai.api_key = st.secrets["api_secret"]
+os.environ["OPENAI_API_KEY"] = st.secrets["api_secret"]
 
 start_chat_log = '''You: Hello, how are you?
 Noah: I am doing great.
